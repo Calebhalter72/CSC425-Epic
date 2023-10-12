@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+#task-list {
+    margin: 20px auto; /* Center the task list container */
+    max-width: 400px; /* Limit the maximum width */
+}
+
+#task-list ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+#edit-form {
+    margin: 20px auto; /* Center the edit form container */
+    max-width: 400px; /* Limit the maximum width */
+}
